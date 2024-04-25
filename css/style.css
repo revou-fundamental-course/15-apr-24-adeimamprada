@@ -1,29 +1,66 @@
-/* ini file css */
-.input {
-    max-width: 190px;
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
-    outline: none;
-    color: dimgray;
-  }
+input {
+  width: 95%;
+  height: 50px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+  outline: none;
+  color: dimgray;
+}
+
+button {
+  text-align: center;
+  border:none;
+  font-size: 14px;
+  padding: 8px;
+  font-family: Arial;
+  margin-right: 10px;
+  width: 80px;
+  height: 35px;
+  margin-top: 10px;
+}
+textarea{
+  width: 95%;
+  height: 50px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+  outline: none;
+  color: dimgray;
+}
+.h1-header{
+  text-align:center;
+}
+body{
+  background-color:aquamarine;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.section-celcius{
+  background-color:azure;
+  padding: 30px;
+}
+.section-fahrenheit{
+  background-color:azure;
+  padding: 30px;
   
-  .input:invalid {
-    animation: justshake 0.3s forwards;
-    color: red;
-  }
-  
-  @keyframes justshake {
-    25% {
-      transform: rotate(5deg);
-    }
-  
-    50% {
-      transform: rotate(-5deg);
-    }
-  
-    75% {
-      transform: rotate(5deg);
-    }
-  }
+}
+.section-calculation{
+  background-color:azure;
+  padding: 30px;
+}
+.formulasi-s{
+  font-size: 20px;
+  font-style: italic;
+}
+.formulasi-s>sub{
+  font-style: normal;
+}
+#cToF{
+  display: block;
+}
+#fToC{
+  display: none;
+}
